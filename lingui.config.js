@@ -3,6 +3,8 @@ const nextConfig = require('./next.config');
 module.exports = {
     locales: nextConfig.i18n.locales,
     pseudoLocale: 'pseudo',
+    // Default language for strings when translation files are generated.
+    // Any untranslated files will be in the default locale.
     sourceLocale: nextConfig.i18n.defaultLocale,
     // this is crucial to make `lingui extract` work in nextjs with swc compiler in v3
     // and can be safely removed in v4 (upcoming release)
@@ -17,7 +19,7 @@ module.exports = {
     },
     catalogs: [
         {
-            path: 'locales/{locale}',
+            path: "locales/{locale}/messages",
             include: ['pages', 'components']
         }
     ],

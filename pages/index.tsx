@@ -38,7 +38,7 @@ export default function Home() {
                 <p className={styles.pluralDescription}>
                     <Plural
                         value={languageCount}
-                        one="Whe have # Developer"
+                        one="We have # Developer"
                         other="We have # Developers"
                         id="home-plurals-description"
                     />

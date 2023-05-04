@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2023-04-28 10:33+0100\n"
+"POT-Creation-Date: 2023-05-04 09:21+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
-"Language: en\n"
+"Language: cy\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: \n"
@@ -15,16 +15,16 @@ msgstr ""
 
 #: pages/index.tsx:26
 msgid "home-description"
-msgstr "This is an example of how to use nextJs and Lingui to add internationalisation to a project.<0/>On this page we are using ids for the translations."
+msgstr "Enghraifft o sut i ddefnyddio nextJs a rhyngwladoli Lingui.<0/>Ar y dudalen hon rydym yn defnyddio rhifau adnabod ar gyfer y cyfieithiadau."
 
 #: pages/index.tsx:21
 msgid "home-heading"
-msgstr "NextJs Lingui Example"
+msgstr "Enghraifft Iaith NextJs"
 
 #: pages/index.tsx:39
 msgid "home-plurals-description"
-msgstr "{languageCount, plural, one {We have # Developer} other {We have # Developers}}"
+msgstr "{languageCount, plural, one {Mae gennym ni # Datblygwr} other {Mae gennym ni # Datblygwr}}"
 
 #: pages/index.tsx:33
 msgid "home-subHeading"
-msgstr "Dealing with plurals"
+msgstr "Delio â lluosogau"
