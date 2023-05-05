@@ -28,7 +28,6 @@ export default function Index() {
                     count={languageCount}
                     updateCount={setLanguageCount}/>
 
-
                 <p className={styles.description}>
                     <Plural
                         value={languageCount}

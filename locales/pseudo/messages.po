@@ -21,11 +21,11 @@ msgstr ""
 msgid "home-heading"
 msgstr ""
 
-#: pages/index.tsx:33
+#: pages/index.tsx:32
 msgid "home-plurals-link"
 msgstr ""
 
-#: pages/plurals.tsx:33
+#: pages/plurals.tsx:32
 msgid "plurals-description"
 msgstr ""
 
@@ -33,6 +33,6 @@ msgstr ""
 msgid "plurals-heading"
 msgstr ""
 
-#: pages/plurals.tsx:43
+#: pages/plurals.tsx:42
 msgid "plurals-home-link"
 msgstr ""

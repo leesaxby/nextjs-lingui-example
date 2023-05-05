@@ -1,8 +1,8 @@
-import {LangSwitcher} from "@/components";
+import {LangSwitcher} from "../components";
 import {Trans} from "@lingui/macro";
 import Head from 'next/head'
 import {GetStaticPropsContext} from "next";
-import {loadTranslation} from "@/libs/utils/lingui-setup";
+import {loadTranslation} from "../libs/utils/lingui-setup";
 import styles from '../styles/Home.module.css'
 import Link from "next/link";
 
@@ -23,8 +23,7 @@ export default function Home() {
                 </h1>
                 <p className={styles.description}>
                     <Trans id="home-description">
-                        Example of how to use nextJs and Lingui internationalisation.<br/>
-                        On this page we are using ids for the translations.
+                        Example of how to add internationalisation to a NextJs project using Lingui
                     </Trans>
                 </p>
 

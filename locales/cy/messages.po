@@ -15,17 +15,17 @@ msgstr ""
 
 #: pages/index.tsx:25
 msgid "home-description"
-msgstr "Enghraifft o sut i ddefnyddio nextJs a rhyngwladoli Lingui.<0/>Ar y dudalen hon rydym yn defnyddio rhifau adnabod ar gyfer y cyfieithiadau."
+msgstr "Enghraifft o sut i ychwanegu rhyngwladoli at brosiect NextJs gan ddefnyddio Lingui"
 
 #: pages/index.tsx:20
 msgid "home-heading"
 msgstr "Enghraifft Iaith NextJs"
 
-#: pages/index.tsx:33
+#: pages/index.tsx:32
 msgid "home-plurals-link"
 msgstr "Delio â lluosogau"
 
-#: pages/plurals.tsx:33
+#: pages/plurals.tsx:32
 msgid "plurals-description"
 msgstr "{languageCount, plural, one {Mae gennym ni # Iaith} other {Mae gennym ni # Ieithoedd}}"
 
@@ -33,6 +33,6 @@ msgstr "{languageCount, plural, one {Mae gennym ni # Iaith} other {Mae gennym ni
 msgid "plurals-heading"
 msgstr "Delio â lluosogau"
 
-#: pages/plurals.tsx:43
+#: pages/plurals.tsx:42
 msgid "plurals-home-link"
 msgstr "Cartref"
