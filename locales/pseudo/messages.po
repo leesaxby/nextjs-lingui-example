@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2023-05-04 09:21+0100\n"
+"POT-Creation-Date: 2023-05-05 10:21+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,18 +13,26 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: pages/index.tsx:26
+#: pages/index.tsx:25
 msgid "home-description"
 msgstr ""
 
-#: pages/index.tsx:21
+#: pages/index.tsx:20
 msgid "home-heading"
 msgstr ""
 
-#: pages/index.tsx:39
-msgid "home-plurals-description"
+#: pages/index.tsx:33
+msgid "home-link"
 msgstr ""
 
-#: pages/index.tsx:33
-msgid "home-subHeading"
+#: pages/plurals.tsx:33
+msgid "plurals-description"
+msgstr ""
+
+#: pages/plurals.tsx:22
+msgid "plurals-heading"
+msgstr ""
+
+#: pages/plurals.tsx:43
+msgid "plurals-link"
 msgstr ""

@@ -1,37 +1,47 @@
-import {LangSwitcher} from "@/components";
-import {Trans} from "@lingui/macro";
+import {useState} from 'react';
+import {LangSwitcher, PlusMinus} from "@/components";
+import {Trans, Plural} from "@lingui/macro";
 import Head from 'next/head'
+import Link from 'next/link'
 import {GetStaticPropsContext} from "next";
 import {loadTranslation} from "@/libs/utils/lingui-setup";
 import styles from '../styles/Home.module.css'
-import Link from "next/link";
 
-export default function Home() {
+export default function Index() {
+    const [languageCount, setLanguageCount ] = useState(1)
     return (
         <div className={styles.container}>
             <Head>
-                <title>Home | NextJs Lingui Example</title>
+                <title>Plurals | NextJs Lingui Example</title>
             </Head>
 
             <main className={styles.main}>
                 <LangSwitcher />
 
                 <h1 className={styles.title}>
-                    <Trans id="home-heading">
-                        NextJs Lingui Example
+                    <Trans id="plurals-heading">
+                        Dealing with plurals
                     </Trans>
                 </h1>
+
+                <PlusMinus
+                    count={languageCount}
+                    updateCount={setLanguageCount}/>
+
+
                 <p className={styles.description}>
-                    <Trans id="home-description">
-                        Example of how to use nextJs and Lingui internationalisation.<br/>
-                        On this page we are using ids for the translations.
-                    </Trans>
+                    <Plural
+                        value={languageCount}
+                        one="We have # Language"
+                        other="We have # Languages"
+                        id="plurals-description"
+                    />
                 </p>
 
                 <section className={styles.linksSection}>
-                    <Link href="/plurals" className={styles.link}>
-                        <Trans id="home-link">
-                            Dealing with plurals
+                    <Link href="/" className={styles.link}>
+                        <Trans id="plurals-link">
+                            Home
                         </Trans>
                     </Link>
                 </section>

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2023-05-04 09:21+0100\n"
+"POT-Creation-Date: 2023-05-05 10:21+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,18 +13,26 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: pages/index.tsx:26
+#: pages/index.tsx:25
 msgid "home-description"
 msgstr "Enghraifft o sut i ddefnyddio nextJs a rhyngwladoli Lingui.<0/>Ar y dudalen hon rydym yn defnyddio rhifau adnabod ar gyfer y cyfieithiadau."
 
-#: pages/index.tsx:21
+#: pages/index.tsx:20
 msgid "home-heading"
 msgstr "Enghraifft Iaith NextJs"
 
-#: pages/index.tsx:39
-msgid "home-plurals-description"
-msgstr "{languageCount, plural, one {Mae gennym ni # Datblygwr} other {Mae gennym ni # Datblygwr}}"
-
 #: pages/index.tsx:33
-msgid "home-subHeading"
+msgid "home-link"
+msgstr "Cartref"
+
+#: pages/plurals.tsx:33
+msgid "plurals-description"
+msgstr "{languageCount, plural, one {Mae gennym ni # Iaith} other {Mae gennym ni # Ieithoedd}}"
+
+#: pages/plurals.tsx:22
+msgid "plurals-heading"
+msgstr "Delio â lluosogau"
+
+#: pages/plurals.tsx:43
+msgid "plurals-link"
 msgstr "Delio â lluosogau"

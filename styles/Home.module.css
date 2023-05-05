@@ -12,16 +12,26 @@
   align-items: center;
 }
 
+.linksSection {
+  margin-bottom: 6rem;
+}
+
+.link {
+  font-size: 2rem;
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+  text-decoration: underline;
+}
+
 .title {
   margin: 3rem 0 0 0;
   line-height: 1.15;
   font-size: 4rem;
-}
-
-.subTitle {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 2rem;
 }
 
 .title,
@@ -31,11 +41,6 @@
 
 .description {
   margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.pluralDescription {
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -63,7 +68,7 @@
 }
 
 .plusMinusButton {
-  margin: 1rem;
+  margin: 4rem 1rem 0 1rem;
   padding: 0.8rem 1.5rem 0.8rem 1.5rem;
   font-size: 2rem;
   color: #727272;
