@@ -15,24 +15,24 @@ msgstr ""
 
 #: pages/index.tsx:25
 msgid "home-description"
-msgstr "Example of how to use nextJs and Lingui internationalisation.<0/>On this page we are using ids for the translations."
+msgstr "Example of how to add internationalisation to a NextJs project using Lingui"
 
 #: pages/index.tsx:20
 msgid "home-heading"
 msgstr "NextJs Lingui Example"
 
-#: pages/index.tsx:33
+#: pages/index.tsx:32
 msgid "home-plurals-link"
 msgstr "Dealing with plurals"
 
-#: pages/plurals.tsx:33
+#: pages/plurals.tsx:32
 msgid "plurals-description"
-msgstr "{languageCount, plural, one {We have # language} other {We have # languages}}"
+msgstr "{languageCount, plural, one {We have # Language} other {We have # Languages}}"
 
 #: pages/plurals.tsx:22
 msgid "plurals-heading"
 msgstr "Dealing with plurals"
 
-#: pages/plurals.tsx:43
+#: pages/plurals.tsx:42
 msgid "plurals-home-link"
 msgstr "Home"

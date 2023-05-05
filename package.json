@@ -7,7 +7,7 @@
     "build": "lingui compile && next build",
     "start": "next start",
     "lint": "next lint",
-    "extract": "lingui extract --clean",
+    "extract": "lingui extract --clean --overwrite",
     "compile": "lingui compile",
     "test": "jest"
   },
