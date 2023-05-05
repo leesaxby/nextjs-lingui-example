@@ -19,10 +19,10 @@
 .DS_Store
 *.pem
 git_toolbox_prj.xml
-melyn-legal.iml
 modules.xml
 Project_Default.xml
 vcs.xml
+workspace.xml
 
 # debug
 npm-debug.log*
