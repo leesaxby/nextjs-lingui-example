@@ -1,13 +1,12 @@
-import {useState} from 'react';
-import {LangSwitcher, PlusMinus} from "@/components";
-import {Trans, Plural} from "@lingui/macro";
+import {LangSwitcher} from "@/components";
+import {Trans} from "@lingui/macro";
 import Head from 'next/head'
 import {GetStaticPropsContext} from "next";
 import {loadTranslation} from "@/libs/utils/lingui-setup";
 import styles from '../styles/Home.module.css'
+import Link from "next/link";
 
 export default function Home() {
-    const [languageCount, setLanguageCount ] = useState(1)
     return (
         <div className={styles.container}>
             <Head>
@@ -29,25 +28,13 @@ export default function Home() {
                     </Trans>
                 </p>
 
-                <h1 className={styles.subTitle}>
-                    <Trans id="home-subHeading">
-                        Dealing with plurals
-                    </Trans>
-                </h1>
-
-                <p className={styles.pluralDescription}>
-                    <Plural
-                        value={languageCount}
-                        one="Whe have # Developer"
-                        other="We have # Developers"
-                        id="home-plurals-description"
-                    />
-                </p>
-
-                <PlusMinus
-                    count={languageCount}
-                    updateCount={setLanguageCount}/>
-
+                <section className={styles.linksSection}>
+                    <Link href="/plurals" className={styles.link}>
+                        <Trans id="home-plurals-link">
+                            Dealing with plurals
+                        </Trans>
+                    </Link>
+                </section>
             </main>
         </div>
     )
