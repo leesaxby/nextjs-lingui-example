@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 
-type LOCALES = 'en' | 'cy';
+type LOCALES = 'en' | 'cy' | 'pseudo';
 
 export const LangSwitcher = () => {
     const router = useRouter()
@@ -35,6 +35,16 @@ export const LangSwitcher = () => {
                     height={170}
                     width={170}
                 />
+            </button>
+
+            <button
+                className={`${styles.langButton} ${styles.pseudoButton}`}
+                style={{
+                    height: 178,
+                    width: 178,
+                }}
+                onClick={() => {handleLocaleChange('pseudo')}}>
+                    PSEUDO
             </button>
         </div>
     )
