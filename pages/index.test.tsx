@@ -28,6 +28,10 @@ describe('translation strings render correctly', () => {
         }))
     })
 
+    afterEach(() => {
+        jest.clearAllMocks();
+    });
+
     it('Content should be translated correctly in English' , () => {
         act(() => {
             i18n.activate('en')
@@ -44,8 +48,6 @@ describe('translation strings render correctly', () => {
 
         render(<I18nWrapper />);
         expect(screen.getByText('Enghraifft Iaith NextJs')).toBeInTheDocument();
-
-
     });
 
 })
