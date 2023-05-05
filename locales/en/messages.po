@@ -22,7 +22,7 @@ msgid "home-heading"
 msgstr "NextJs Lingui Example"
 
 #: pages/index.tsx:33
-msgid "home-link"
+msgid "home-plurals-link"
 msgstr "Dealing with plurals"
 
 #: pages/plurals.tsx:33
@@ -34,5 +34,5 @@ msgid "plurals-heading"
 msgstr "Dealing with plurals"
 
 #: pages/plurals.tsx:43
-msgid "plurals-link"
+msgid "plurals-home-link"
 msgstr "Home"

@@ -91,6 +91,11 @@
   border-color: #0070f3;
 }
 
+.langButtonSelected {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

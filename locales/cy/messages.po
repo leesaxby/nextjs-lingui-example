@@ -22,8 +22,8 @@ msgid "home-heading"
 msgstr "Enghraifft Iaith NextJs"
 
 #: pages/index.tsx:33
-msgid "home-link"
-msgstr "Cartref"
+msgid "home-plurals-link"
+msgstr "Delio â lluosogau"
 
 #: pages/plurals.tsx:33
 msgid "plurals-description"
@@ -34,5 +34,5 @@ msgid "plurals-heading"
 msgstr "Delio â lluosogau"
 
 #: pages/plurals.tsx:43
-msgid "plurals-link"
-msgstr "Delio â lluosogau"
+msgid "plurals-home-link"
+msgstr "Cartref"

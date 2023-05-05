@@ -40,7 +40,7 @@ export default function Index() {
 
                 <section className={styles.linksSection}>
                     <Link href="/" className={styles.link}>
-                        <Trans id="plurals-link">
+                        <Trans id="plurals-home-link">
                             Home
                         </Trans>
                     </Link>

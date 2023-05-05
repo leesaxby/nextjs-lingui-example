@@ -30,7 +30,7 @@ export default function Home() {
 
                 <section className={styles.linksSection}>
                     <Link href="/plurals" className={styles.link}>
-                        <Trans id="home-link">
+                        <Trans id="home-plurals-link">
                             Dealing with plurals
                         </Trans>
                     </Link>
