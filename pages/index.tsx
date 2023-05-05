@@ -1,8 +1,8 @@
-import {LangSwitcher} from "@/components";
+import {LangSwitcher} from "../components";
 import {Trans} from "@lingui/macro";
 import Head from 'next/head'
 import {GetStaticPropsContext} from "next";
-import {loadTranslation} from "@/libs/utils/lingui-setup";
+import {loadTranslation} from "../libs/utils/lingui-setup";
 import styles from '../styles/Home.module.css'
 import Link from "next/link";
 
