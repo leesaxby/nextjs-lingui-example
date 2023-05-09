@@ -48,7 +48,7 @@ The runtime translation files are imported into the pages via `getStaticProps` o
 
 ### getStaticProps
 
-**A version of the page will be generated for each locale**. This is important to consider because it can increase build times depending on how many locales are configured inside getStaticProps.\
+**A version of the page will be generated for each locale**. This is important to consider because it can increase build times depending on how many locales are configured inside getStaticProps.
 
 To decrease the build time of dynamic pages with `getStaticProps`, use a fallback mode.
 This allows you to return only the most popular paths and locales from getStaticPaths for prerendering during the build. Then, Next.js will build the remaining pages at runtime as they are requested.
