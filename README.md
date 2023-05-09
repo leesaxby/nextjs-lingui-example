@@ -66,3 +66,34 @@ A couple of ways to improve this are:
 
 In the `LangSwitcher` component, when a user changes locale, we create a `NEXT_LOCALE` cookie and store the selected locale.\
 When a user returns to the site, NextJs will automatically route the user to the locale stored in the cookie.
+
+## Testing
+
+An example test file using jest/react testing library is located here `pages/index.test.js`\
+We simply wrap the component we wish to test with the `<18nProvider>`, passing in our locale files.
+
+```
+const useRouter = jest.spyOn(require('next/router'), 'useRouter')
+
+i18n.load({
+  en: messages,
+  cy: cyMessages
+})
+
+const I18nWrapper = () => (
+  <I18nProvider i18n={i18n}>
+      <Component />
+  </I18nProvider>
+)
+```
+
+We then activate the required locale before rendering.
+
+```
+act(() => {
+  i18n.activate('cy')
+})
+
+render(<I18nWrapper />);
+expect(screen.getByText('Enghraifft Iaith NextJs')).toBeInTheDocument();
+```
