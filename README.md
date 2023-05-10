@@ -59,7 +59,7 @@ Further reading https://nextjs.org/docs/pages/building-your-application/routing/
 
 Having to load the required locale file with `getServerSideProps` could impact performance.\
 A couple of ways to improve this are:
- - Use the experimental feature `experimental-extractor` that will provide only the translations required for the page, instead to the full catalog of translations. https://lingui.dev/guides/message-extraction#dependency-tree-crawling-experimental.
+ - Use the experimental feature `experimental-extractor` that will provide only the translations required for the page, instead of the full catalog of translations. https://lingui.dev/guides/message-extraction#dependency-tree-crawling-experimental.
  - We may be able to load the required catalogs in the `<App>` component and provided the translations to children via the `<I18nProvider>` provider or a custom context.
 
 ### NEXT_LOCALE Cookie
