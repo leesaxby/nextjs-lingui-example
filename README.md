@@ -67,6 +67,11 @@ A couple of ways to improve this are:
 In the `LangSwitcher` component, when a user changes locale, we create a `NEXT_LOCALE` cookie and store the selected locale.\
 When a user returns to the site, NextJs will automatically route the user to the locale stored in the cookie.
 
+### Pseudolocalization
+
+Alongside the regular locales we also have a `pseudo` locale, which we can enable for development and testing.\
+`pseudo` strings remaing readable but make it easy to spot any untranslated strings e.g. `Ńēxţĵś Ĺĩńĝũĩ Ēxàmƥĺē`.
+
 ## Testing
 
 An example test file using jest/react testing library is located here `pages/index.test.js`\
