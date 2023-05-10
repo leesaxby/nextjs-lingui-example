@@ -1,6 +1,6 @@
 # NextJs and Lingui internationalisation
 
-An example of internationalisation using NextJs and Lingui (https://lingui.dev/)
+An example of internationalisation using NextJs and <a href="https://lingui.dev/">Lingui</a>.
 
 ## Lingui
 
@@ -59,8 +59,20 @@ Further reading https://nextjs.org/docs/pages/building-your-application/routing/
 
 Having to load the required locale file with `getServerSideProps` could impact performance.\
 A couple of ways to improve this are:
- - Use the experimental feature `experimental-extractor` that will provide only the translations required for the page, instead of the full catalog of translations. https://lingui.dev/guides/message-extraction#dependency-tree-crawling-experimental.
+ - Use the <a href="https://lingui.dev/guides/message-extraction#dependency-tree-crawling-experimental">experimental feature</a> `experimental-extractor` that will provide only the translations required for the page, instead of the full catalog of translations.
  - We may be able to load the required catalogs in the `<App>` component and provided the translations to children via the `<I18nProvider>` provider or a custom context.
+
+### Routing
+
+NextJs offers 2 methods of handling i18n routing, `domain` and `sub path`, for this example we have chosen <a href="https://nextjs.org/docs/pages/building-your-application/routing/internationalization#sub-path-routing">sub path</a> routing.\
+By switching the sub path locale in the URL, we can trigger NextJs to re-render with the required translation files:
+
+```
+router.push('/', '/', { locale: 'cy' })
+```
+```
+my-site/cy/about
+```
 
 ### NEXT_LOCALE Cookie
 
